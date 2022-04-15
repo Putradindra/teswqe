@@ -8,6 +8,7 @@ month: 'long',
 year: 'numeric'
 })
 
+
 let time = d.toLocaleTimeString(locale, {
 hour: 'numeric',
 minute: 'numeric',
