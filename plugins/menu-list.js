@@ -272,22 +272,22 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ╰───⬣
 ┌───⬣
-│⬡ My Github : https://github.com/Hyzerr
-│⬡ My Instagram : hyzer_stfu
+│⬡ My Github : https://github.com/Putradindra
+│⬡ My Instagram : Veteran_Putra
 │⬡ My Group : 
-│https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV
+│https://chat.whatsapp.com/Hl4KQuVJrZP0OtBmcdF9CV
 │⬡ *スパムしないでください*
 ╰────────────────⬣
 `,
             buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "Created By Hyzer Official\n>‿‿<",
+            footerText: "Created By Swister Official\n>‿‿<",
             mtype: 'listMessage',
             sections: [
               {
                 "rows": [{
                   "title": `OWNER BOT`,
-                  "description": "Nomor Pemilik Bot Chat P/Meminta Save Tidak Akan Di Respon",
+                  "description": "Nomor Pemilik Null Bot Chat P/Meminta Save Tidak Akan Di Respon",
                   "rowId": `.owner`
                 },{
                   "title": "INFO BOT",
@@ -399,7 +399,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
             ], "contextInfo": {
                "stanzaId": m.key.id,
                "participant": "0@s.whatsapp.net",
-               "remoteJid": "6283136505591-1614953337@g.us",
+               "remoteJid": "6289504575881-1614953337@g.us",
                "quotedMessage": m.message
             }
     }}), { quoted: m, contextInfo: { mentionedJid: m.sender, userJid: m.participant || m.key.remoteJid }});
