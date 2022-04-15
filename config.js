@@ -69,9 +69,9 @@ global.author = 'Swister'
 
 
 
-ig: senpai_chan_gemoy`
+ig: 'senpai_chan_gemoy'
 global.wm = 'Null Bot'
-global.watermark = wm
+global.watermark = 'wm'
 global.botdate = '╭──────────═┅═─────────\n│◪ ${time}\n┊◪ ${week} ${date}\n╰──────────═┅═─────────'
 global.media = 'https://telegra.ph/file/ccb2359d3925fd7af58cd.jpg'
 global.instagram = 'https://instagram.com/senpai_chan_gemoy'
